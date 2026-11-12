@@ -1,1 +1,0 @@
-alert('comi seu bumbum guloso')
