@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LímpidaMente - Cordéis</title>
+    <link rel="icon" type="image/png" href="imagens/logotipo-limpidamente.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JavaScript/script.js" defer></script>
+</head>
+<body id="topo">
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ========== CABEÇALHO (igual em todas as páginas) ========== -->
+<header class="header">
+    <a href="index.html" class="marca">
+        <img src="imagens/logotipo-limpidamente.png" alt="Logotipo LímpidaMente" class="logo">
+        <span class="nome-site">LímpidaMente</span>
+    </a>
+    <nav class="menu-container">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="conto.html">Contos</a>
+        <a href="entrevista.html">Entrevista</a>
+        <a href="resenha.html">Resenhas</a>
+        <a href="cordel.html" class="ativo">Cordéis</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <button type="button" id="theme-toggle" class="btn">
+        <span>Mudar Tema</span>
+        <i id="icon-on" class="bi bi-sun"></i>
+        <i id="icon-off" class="bi bi-moon-fill d-none"></i>
+    </button>
+</header>
+
+<!-- ========== CONTEÚDO DESTA PÁGINA ========== -->
+<main id="conteudo">
+
+    <section class="pagina-titulo">
+        <h1>Cordéis</h1>
+        <p>O cordel é uma forma de literatura popular escrita em versos rimados, nascida na tradição oral e muito ligada ao Nordeste do Brasil. O nome vem de Portugal, onde pequenos folhetos eram pendurados em cordas ou cordéis para serem vendidos em feiras e mercados. No Brasil, essa prática ganhou força e identidade próprias: os folhetos costumam ter capa ilustrada com xilogravura e são escritos por poetas chamados cordelistas.</p>
+        <p>Com linguagem simples, ritmo marcado e muita criatividade, o cordel conta histórias, faz críticas sociais, defende ideias e emociona. Hoje ele é reconhecido como patrimônio cultural brasileiro. Nos cordéis desta página, usamos essa tradição para falar de temas atuais, como direitos humanos e liberdade.</p>
+    </section>
+
+    <section>
+        <div class="cards cards-resumo">
+            <article class="card card-resumo" role="button" tabindex="0" aria-haspopup="dialog" data-texto="texto-cordel-1">
+                <h2>A Voz do Povo e os Direitos Humanos</h2>
+                <p class="meta">Autoria: grupo LímpidaMente</p>
+                <p class="resumo">Em versos rimados, o cordel defende que todas as pessoas têm direito à dignidade, ao respeito e à liberdade, sem distinção de cor, condição social ou religião.</p>
+                <span class="ler-mais">Ler texto completo →</span>
+            </article>
+            <article class="card card-resumo" role="button" tabindex="0" aria-haspopup="dialog" data-texto="texto-cordel-2">
+                <h2>Liberdade</h2>
+                <p class="meta">Autoria: grupo LímpidaMente</p>
+                <p class="resumo">Versos sobre o direito de pensar, falar e escolher o próprio caminho e a própria fé, com respeito à escolha de cada pessoa.</p>
+                <span class="ler-mais">Ler texto completo →</span>
+            </article>
+            <article class="card card-resumo" role="button" tabindex="0" aria-haspopup="dialog" data-texto="texto-cordel-3">
+                <h2>Direitos Humanos</h2>
+                <p class="meta">Autoria: Davi Silva Nascimento</p>
+                <p class="resumo">Versos que partem de artigos sobre vida, liberdade, segurança e o fim da escravidão para refletir sobre o preconceito que ainda existe hoje.</p>
+                <span class="ler-mais">Ler texto completo →</span>
+            </article>
+        </div>
+    </section>
+
+    <template id="texto-cordel-1" data-titulo="A Voz do Povo e os Direitos Humanos" data-meta="Autoria: grupo LímpidaMente">
+    
+    
+    <p>
+        Lá no sertão brasileiro,<br>
+        Onde o sol brilha ligeiro,<br>
+        Vou contar uma história,<br>
+        De respeito e de vitória,<br>
+        De um povo batalhador,<br>
+        Que merece paz e amor.
+    </p>
+    <p>
+        Todo mundo tem direito,<br>
+        De viver com dignidade,<br>
+        De ser tratado com respeito,<br>
+        E ter sua liberdade.<br>
+        Não importa a sua cor,<br>
+        Todos têm o mesmo valor!
+    </p>
+    <p>
+        Seja rico ou seja pobre,<br>
+        Todo mundo é cidadão,<br>
+        Ninguém deve ser tratado<br>
+        Com desprezo ou humilhação.<br>
+        Pois os direitos humanos<br>
+        Devem valer para todos os manos!
+    </p>
+    <p>
+        Toda criança merece<br>
+        Ter escola e proteção,<br>
+        Ter comida em sua mesa,<br>
+        E carinho no coração.<br>
+        Ter um lar para morar,<br>
+        E o direito de sonhar.
+    </p>
+    <p>
+        Não importa a religião,<br>
+        Nem o jeito de falar,<br>
+        Cada um tem sua escolha,<br>
+        E devemos respeitar.<br>
+        Pois viver em união<br>
+        É construir uma nação!
+    </p>
+    <p>
+        Vamos todos dar as mãos,<br>
+        E lutar por igualdade,<br>
+        Combater o preconceito,<br>
+        A injustiça e a maldade.<br>
+        Pois um mundo de respeito<br>
+        É um mundo mais perfeito!
+    </p>
+    <p>
+        E termino meu cordel<br>
+        Com uma grande reflexão:<br>
+        Direitos humanos são para todos,<br>
+        Não importa a condição.<br>
+        Respeitar é o caminho,<br>
+        Para ninguém viver sozinho!
+    </p>
+
+    </template>
+    <template id="texto-cordel-2" data-titulo="Liberdade" data-meta="Autoria: grupo LímpidaMente">
+    
+    
+    <p>
+        Que cada homem tenha o direito<br>
+        De pensar e escolher seu caminho,<br>
+        De buscar sua própria verdade<br>
+        Sem que o obriguem a andar sozinho.<br>
+        Pois a fé que nasce na alma<br>
+        Não floresce sob espinho.
+    </p>
+    <p>
+        Que se possa falar e pensar,<br>
+        Questionar sem medo ou prisão,<br>
+        Ter sua crença respeitada<br>
+        Sem sofrer qualquer imposição.<br>
+        Liberdade é dar ao outro<br>
+        O mesmo espaço e condição.
+    </p>
+    <p>
+        E no silêncio de cada consciência,<br>
+        Onde ninguém pode interferir,<br>
+        Há quem procure o Grande Arquiteto<br>
+        E há quem prefira não O seguir.<br>
+        Livre é aquele que escolhe<br>
+        O próprio modo de existir.
+    </p>
+
+    </template>
+    <template id="texto-cordel-3" data-titulo="Direitos Humanos" data-meta="Autoria: Davi Silva Nascimento">
+    <p class="epigrafe">Todo ser humano tem direito à vida, à liberdade e à segurança pessoal</p>
+    <p>
+        a vida pode ser uma ilusão<br>
+        mas pra uma pessoa que não quis viver<br>
+        segurança pode ser uma confusão<br>
+        mas também pra quem quer ter liberdade de ver<br>
+        alguns que no passado foram libertos<br>
+        hoje em dia estão presos pelo seu próprio ego<br>
+        que as brincadeiras comecem<br>
+        mas que a insegurança consuma-os<br>
+        diversão e o que tem<br>
+        proteção e o que queríamos
+    </p>
+    <p class="epigrafe">Ninguém será mantido em escravidão ou servidão; a escravidão e o tráfico de escravos serão proibidos em todas as suas formas</p>
+    <p>
+        estavam presos no passado<br>
+        hoje em dia também com o preconceito<br>
+        libertados no pretérito<br>
+        agora eles sorriem pra cuidar de seus meios<br>
+        pretos não são monstros<br>
+        são pessoas normais<br>
+        mas o brancos no passado<br>
+        eles viam o contrario
+    </p>
+    </template>
+</main>
+
+<dialog id="leitor" class="leitor" aria-labelledby="leitor-titulo">
+    <div class="leitor-caixa">
+        <header class="leitor-topo">
+            <div>
+                <h2 id="leitor-titulo"></h2>
+                <p class="meta" id="leitor-meta"></p>
+            </div>
+            <button type="button" class="leitor-fechar" aria-label="Fechar texto" data-fechar>&times;</button>
+        </header>
+        <div class="leitor-conteudo" id="leitor-conteudo" tabindex="0"></div>
+    </div>
+</dialog>
+
+<!-- ========== RODAPÉ (igual em todas as páginas) ========== -->
+<footer class="footer">
+    <div class="footer-marca">
+        <strong>LímpidaMente</strong>
+        <span>Portfólio escolar · Língua Portuguesa</span>
+    </div>
+    <nav class="footer-menu">
+        <a href="index.html" class="menu-a">Home</a>
+        <a href="sobre.html" class="menu-a">Sobre</a>
+        <a href="conto.html" class="menu-a">Contos</a>
+        <a href="entrevista.html" class="menu-a">Entrevista</a>
+        <a href="resenha.html" class="menu-a">Resenhas</a>
+        <a href="cordel.html" class="menu-a">Cordéis</a>
+        <a href="contato.html" class="menu-a">Contato</a>
+    </nav>
+    <p>&copy; 2026 LímpidaMente — Projeto acadêmico. Todos os direitos reservados.</p>
+    <a href="#topo" class="menu-a">Voltar ao topo ↑</a>
+</footer>
+
+</body>
+</html>

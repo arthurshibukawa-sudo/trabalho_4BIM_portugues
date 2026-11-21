@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LímpidaMente - Contos</title>
+    <link rel="icon" type="image/png" href="imagens/logotipo-limpidamente.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JavaScript/script.js" defer></script>
+</head>
+<body id="topo">
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ========== CABEÇALHO (igual em todas as páginas) ========== -->
+<header class="header">
+    <a href="index.html" class="marca">
+        <img src="imagens/logotipo-limpidamente.png" alt="Logotipo LímpidaMente" class="logo">
+        <span class="nome-site">LímpidaMente</span>
+    </a>
+    <nav class="menu-container">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="conto.html" class="ativo">Contos</a>
+        <a href="entrevista.html">Entrevista</a>
+        <a href="resenha.html">Resenhas</a>
+        <a href="cordel.html">Cordéis</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <button type="button" id="theme-toggle" class="btn">
+        <span>Mudar Tema</span>
+        <i id="icon-on" class="bi bi-sun"></i>
+        <i id="icon-off" class="bi bi-moon-fill d-none"></i>
+    </button>
+</header>
+
+<!-- ========== CONTEÚDO DESTA PÁGINA ========== -->
+<main id="conteudo">
+
+    <section class="pagina-titulo">
+        <h1>Contos</h1>
+        <p>O conto é uma narrativa curta, com poucos personagens, um conflito central e um desfecho que costuma ser rápido e marcante. Por ser breve, ele vai direto ao ponto e consegue emocionar ou fazer pensar em poucas páginas.</p>
+        <p>Os contos desta página são releituras inspiradas no romance Hibisco Roxo, da escritora nigeriana Chimamanda Ngozi Adichie. Em cada um deles, imaginamos novos caminhos para os personagens e discutimos temas como liberdade, autoritarismo, coragem e a força de ter voz.</p>
+    </section>
+
+    <section>
+        <div class="cards cards-resumo">
+            <article class="card card-resumo" role="button" tabindex="0" aria-haspopup="dialog" data-texto="texto-conto-1">
+                <h2>Hibisco Roxo – Um Novo Começo</h2>
+                <p class="meta">Autoria: grupo LímpidaMente</p>
+                <p class="resumo">Kambili e Jaja vivem sob as regras rígidas do pai, Eugene, até visitarem a tia Ifeoma e descobrirem a liberdade de ter voz.</p>
+                <span class="ler-mais">Ler texto completo →</span>
+            </article>
+            <article class="card card-resumo" role="button" tabindex="0" aria-haspopup="dialog" data-texto="texto-conto-2">
+                <h2>Ascensão de Eugene</h2>
+                <p class="meta">Releitura de “Hibisco Roxo” | Autoria: grupo LímpidaMente</p>
+                <p class="resumo">Releitura sombria em que Eugene, dono de um jornal independente durante uma ditadura, aceita um acordo com o regime e se torna parte do que combatia. Contém violência e menção a suicídio.</p>
+                <span class="ler-mais">Ler texto completo →</span>
+            </article>
+        </div>
+    </section>
+
+    <template id="texto-conto-1" data-titulo="Hibisco Roxo – Um Novo Começo" data-meta="Autoria: grupo LímpidaMente">
+    
+    
+    <p>A casa de Kambili sempre foi um lugar silencioso, onde todos tinham medo de desobedecer às regras rígidas de seu pai, Eugene. Ela e seu irmão Jaja viviam presos a uma rotina de cobranças, violência e falta de liberdade. Apesar de tudo, Kambili ainda guardava dentro de si a esperança de que um dia sua família pudesse viver em paz.</p>
+    <p>Quando foram visitar a tia Ifeoma, tudo começou a mudar. Na casa da tia, Kambili conheceu duas pessoas novas: Amara, uma menina alegre e corajosa que adorava escrever poesias, e Chinedu, um jovem vizinho que sonhava em ser jornalista e lutar pela liberdade de expressão.</p>
+    <p>Amara logo se tornou amiga de Kambili e a incentivou a falar sobre seus sentimentos. Já Chinedu conversava bastante com Jaja, mostrando que era possível questionar as injustiças sem perder a esperança.</p>
+    <p>Com o passar dos dias, Kambili começou a sorrir mais e descobriu que não precisava ter medo de expressar suas opiniões. Jaja também ficou mais confiante e percebeu que a liberdade era algo que todos mereciam.</p>
+    <p>Quando voltaram para casa, Eugene percebeu que seus filhos estavam diferentes. Ao contrário do que esperava, eles não aceitaram mais viver calados. Jaja finalmente teve coragem de dizer:</p>
+    <p>— Pai, nós somos seus filhos, não seus prisioneiros. Queremos ser respeitados e ter o direito de escolher nossos caminhos.</p>
+    <p>Eugene ficou furioso no primeiro momento, mas, ao perceber que estava perdendo a convivência com os filhos, começou a refletir sobre suas atitudes.</p>
+    <p>Algum tempo depois, a família passou por uma grande mudança. Kambili e Jaja foram morar com tia Ifeoma, onde puderam estudar, crescer e viver sem medo. Eugene, sozinho, começou a perceber o quanto suas atitudes haviam machucado aqueles que mais amava.</p>
+    <p>Kambili continuou escrevendo poesias com a ajuda de Amara, enquanto Jaja passou a lutar por uma sociedade mais justa, inspirado nas conversas com Chinedu.</p>
+    <p>Em uma manhã ensolarada, Kambili observou os hibiscos roxos florescendo no jardim da tia. Pela primeira vez, aquelas flores representavam algo além de beleza: representavam liberdade, coragem e esperança.</p>
+    <p>Ela sorriu e pensou que, assim como os hibiscos, mesmo em meio às dificuldades, era possível florescer novamente.</p>
+    <p>E assim, Kambili descobriu que o silêncio não precisava ser seu destino, pois sua voz também merecia ser ouvida.</p>
+
+    </template>
+    <template id="texto-conto-2" data-titulo="Ascensão de Eugene" data-meta="Releitura de “Hibisco Roxo” | Autoria: grupo LímpidaMente">
+    
+    
+    <p>Em 1989, durante a ditadura de Ibrahim Babangida, Eugene, um empresário influente, era proprietário de um jornal independente que denunciava a corrupção, os abusos militares e as ligações do governo com o tráfico de drogas. Suas publicações tornaram-se uma ameaça ao regime.</p>
+    <p>Certa madrugada, militares invadiram a redação, destruíram documentos e queimaram arquivos que poderiam comprometer as autoridades. O editor foi capturado e morreu sob tortura na prisão. Para encobrir o crime, o governo divulgou que ele estava envolvido em atividades criminosas e que o jornal ameaçava a segurança nacional.</p>
+    <p>Pouco depois, Eugene também foi capturado e levado para uma instalação militar. Durante semanas, sofreu interrogatórios e violência psicológica. Entretanto, diferentemente do editor, ele possuía riqueza, influência social e poder econômico, tornando-se útil demais para ser eliminado.</p>
+    <p>Os militares ofereceram-lhe liberdade, proteção política e a reabertura do jornal em troca de sua colaboração. Inicialmente, Eugene resistiu, mas começou a acreditar que poderia combater a ditadura por dentro. Convencido de que o acordo seria temporário, aceitou a proposta.</p>
+    <p>O jornal voltou a circular, agora sob rigoroso controle governamental. Sua empresa alimentícia também passou a colaborar com o regime, permitindo que sua estrutura logística fosse utilizada em operações clandestinas de transporte de armas contrabandeadas para aliados do governo.</p>
+    <p>Com a ascensão de Sani Abacha, em 1993, Eugene tornou-se ainda mais poderoso. Seus negócios prosperaram, sua influência política aumentou e ele passou a frequentar os mesmos círculos que antes denunciava. Gradualmente, deixou de questionar a corrupção, justificando suas escolhas como sacrifícios necessários para conquistar poder suficiente para transformar o país.</p>
+    <p>Entretanto, quanto mais privilégios recebia, mais dependente se tornava do regime. O jornal perdera sua função de denunciar injustiças, e sua empresa ajudava a sustentar as atividades clandestinas do governo.</p>
+    <p>Eugene finalmente compreendeu que não estava combatendo o sistema por dentro: havia se tornado parte dele. Consumido pela culpa, pela perda de seus antigos ideais e pela percepção de que contribuíra para perpetuar a ditadura, Eugene chega ao fim da trajetória sem conseguir recuperar a própria identidade. Sua história termina tragicamente com seu suicídio, simbolizando a destruição moral de um homem que, ao tentar preservar seu poder, sacrificou tudo aquilo que afirmava defender.</p>
+
+    </template>
+</main>
+
+<dialog id="leitor" class="leitor" aria-labelledby="leitor-titulo">
+    <div class="leitor-caixa">
+        <header class="leitor-topo">
+            <div>
+                <h2 id="leitor-titulo"></h2>
+                <p class="meta" id="leitor-meta"></p>
+            </div>
+            <button type="button" class="leitor-fechar" aria-label="Fechar texto" data-fechar>&times;</button>
+        </header>
+        <div class="leitor-conteudo" id="leitor-conteudo" tabindex="0"></div>
+    </div>
+</dialog>
+
+<!-- ========== RODAPÉ (igual em todas as páginas) ========== -->
+<footer class="footer">
+    <div class="footer-marca">
+        <strong>LímpidaMente</strong>
+        <span>Portfólio escolar · Língua Portuguesa</span>
+    </div>
+    <nav class="footer-menu">
+        <a href="index.html" class="menu-a">Home</a>
+        <a href="sobre.html" class="menu-a">Sobre</a>
+        <a href="conto.html" class="menu-a">Contos</a>
+        <a href="entrevista.html" class="menu-a">Entrevista</a>
+        <a href="resenha.html" class="menu-a">Resenhas</a>
+        <a href="cordel.html" class="menu-a">Cordéis</a>
+        <a href="contato.html" class="menu-a">Contato</a>
+    </nav>
+    <p>&copy; 2026 LímpidaMente — Projeto acadêmico. Todos os direitos reservados.</p>
+    <a href="#topo" class="menu-a">Voltar ao topo ↑</a>
+</footer>
+
+</body>
+</html>
