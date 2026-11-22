@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LímpidaMente - Home</title>
+    <link rel="icon" type="image/png" href="imagens/logotipo-limpidamente.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JavaScript/Dados.js" defer></script>
+    <script src="JavaScript/script.js" defer></script>
+    
+    <style>
+        .botao { letter-spacing: .02em; }
+    </style>
+</head>
+<body id="topo">
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ========== CABEÇALHO (igual em todas as páginas) ========== -->
+<header class="header">
+    <nav class="navbar navbar-expand-xl p-0" aria-label="Menu principal">
+        <a href="index.html" class="marca navbar-brand m-0 p-0">
+            <img src="imagens/logotipo-limpidamente.png" alt="Logotipo LímpidaMente" class="logo">
+            <span class="nome-site">LímpidaMente</span>
+        </a>
+        <div class="d-flex align-items-center gap-2 ms-auto order-xl-3">
+            <button type="button" id="theme-toggle" class="btn" aria-label="Mudar tema">
+                <span class="d-none d-sm-inline">Mudar Tema</span>
+                <i id="icon-on" class="bi bi-sun"></i>
+                <i id="icon-off" class="bi bi-moon-fill d-none"></i>
+            </button>
+            <button type="button" class="navbar-toggler menu-toggle d-xl-none" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse order-xl-2" id="menu-principal">
+            <div class="menu-container ms-xl-auto flex-column flex-xl-row align-items-start align-items-xl-center">
+                <a href="index.html" class="ativo">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="conto.html">Contos</a>
+                <a href="entrevista.html">Entrevista</a>
+                <a href="resenha.html">Resenhas</a>
+                <a href="cordel.html">Cordéis</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- ========== CONTEÚDO DESTA PÁGINA ========== -->
+<main id="conteudo">
+
+    <section class="hero">
+        <img src="imagens/logotipo-limpidamente.png" alt="" class="hero-logo">
+        <div class="hero-texto">
+            <span class="eyebrow">Portfólio escolar · Língua Portuguesa</span>
+            <h1>LímpidaMente</h1>
+            <p>Bem-vindo ao LímpidaMente, um espaço dedicado à literatura e à reflexão. Aqui você encontra contos, resenhas, cordéis e uma entrevista produzidos por nós, estudantes, para mostrar como as palavras podem esclarecer ideias, despertar emoções e aproximar culturas. O nome do projeto expressa essa vontade: ter uma mente límpida, aberta e curiosa.</p>
+            <a href="#explorar" class="botao" style="margin-top: .25rem;">Explorar o site ↓</a>
+        </div>
+    </section>
+
+    <section id="explorar">
+        <h2 class="secao-titulo">Escolha uma categoria</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col"><article class="card h-100 card-link"><span class="card-num">01</span><i class="bi bi-book card-icon"></i><h3>Contos</h3><p>Narrativas curtas que reimaginam histórias e personagens, falando de liberdade, poder e coragem.</p><a href="conto.html">Ver contos →</a></article></div>
+            <div class="col"><article class="card h-100 card-link"><span class="card-num">02</span><i class="bi bi-mic card-icon"></i><h3>Entrevista</h3><p>Uma conversa com dois professores sobre como a cultura japonesa se misturou ao dia a dia e à história do Brasil.</p><a href="entrevista.html">Ver entrevista →</a></article></div>
+            <div class="col"><article class="card h-100 card-link"><span class="card-num">03</span><i class="bi bi-journal-text card-icon"></i><h3>Resenhas</h3><p>Opiniões e análises de clássicos da literatura, como A Metamorfose e O Pequeno Príncipe.</p><a href="resenha.html">Ver resenhas →</a></article></div>
+            <div class="col"><article class="card h-100 card-link"><span class="card-num">04</span><i class="bi bi-chat-quote card-icon"></i><h3>Cordéis</h3><p>Versos rimados na tradição popular nordestina, sobre direitos humanos e liberdade.</p><a href="cordel.html">Ver cordéis →</a></article></div>
+        </div>
+    </section>
+
+    <section id="painel" aria-labelledby="painel-titulo">
+        <h2 class="secao-titulo" id="painel-titulo">Painel de textos</h2>
+        <p class="painel-intro">Busque e filtre todos os textos do site por tipo, título ou autor.</p>
+        <div class="painel-ferramentas">
+            <div class="painel-filtros" role="group" aria-label="Filtrar por tipo">
+                <button type="button" class="botao-sec ativo" data-tipo="todos">Todos</button>
+                <button type="button" class="botao-sec" data-tipo="conto">Contos</button>
+                <button type="button" class="botao-sec" data-tipo="resenha">Resenhas</button>
+                <button type="button" class="botao-sec" data-tipo="cordel">Cordéis</button>
+            </div>
+            <label class="visually-hidden" for="painel-busca">Buscar por título ou autor</label>
+            <input type="search" id="painel-busca" placeholder="Buscar por título ou autor..." autocomplete="off">
+        </div>
+        <ul class="painel-lista" id="painel-lista"></ul>
+        <p class="painel-intro" id="painel-vazio" hidden>Nenhum texto encontrado para essa busca.</p>
+        <div class="painel-resumo" id="painel-resumo" aria-live="polite"></div>
+        <details class="painel-tabela">
+            <summary>Textos por autor e tipo</summary>
+            <div id="painel-matriz" class="table-responsive"></div>
+            <ul id="painel-irregular"></ul>
+        </details>
+    </section>
+</main>
+
+<!-- ========== RODAPÉ (igual em todas as páginas) ========== -->
+<footer class="footer">
+    <div class="footer-marca">
+        <strong>LímpidaMente</strong>
+        <span>Portfólio escolar · Língua Portuguesa</span>
+    </div>
+    <nav class="footer-menu">
+        <a href="index.html" class="menu-a">Home</a>
+        <a href="sobre.html" class="menu-a">Sobre</a>
+        <a href="conto.html" class="menu-a">Contos</a>
+        <a href="entrevista.html" class="menu-a">Entrevista</a>
+        <a href="resenha.html" class="menu-a">Resenhas</a>
+        <a href="cordel.html" class="menu-a">Cordéis</a>
+        <a href="contato.html" class="menu-a">Contato</a>
+    </nav>
+    <p>&copy; 2026 LímpidaMente — Projeto acadêmico. Todos os direitos reservados.</p>
+    <a href="#topo" class="menu-a">Voltar ao topo ↑</a>
+</footer>
+
+</body>
+</html>

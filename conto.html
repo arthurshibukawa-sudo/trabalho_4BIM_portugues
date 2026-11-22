@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LímpidaMente - Contos</title>
+    <link rel="icon" type="image/png" href="imagens/logotipo-limpidamente.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JavaScript/Dados.js" defer></script>
+    <script src="JavaScript/script.js" defer></script>
+</head>
+<body id="topo">
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ========== CABEÇALHO (igual em todas as páginas) ========== -->
+<header class="header">
+    <nav class="navbar navbar-expand-xl p-0" aria-label="Menu principal">
+        <a href="index.html" class="marca navbar-brand m-0 p-0">
+            <img src="imagens/logotipo-limpidamente.png" alt="Logotipo LímpidaMente" class="logo">
+            <span class="nome-site">LímpidaMente</span>
+        </a>
+        <div class="d-flex align-items-center gap-2 ms-auto order-xl-3">
+            <button type="button" id="theme-toggle" class="btn" aria-label="Mudar tema">
+                <span class="d-none d-sm-inline">Mudar Tema</span>
+                <i id="icon-on" class="bi bi-sun"></i>
+                <i id="icon-off" class="bi bi-moon-fill d-none"></i>
+            </button>
+            <button type="button" class="navbar-toggler menu-toggle d-xl-none" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse order-xl-2" id="menu-principal">
+            <div class="menu-container ms-xl-auto flex-column flex-xl-row align-items-start align-items-xl-center">
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="conto.html" class="ativo">Contos</a>
+                <a href="entrevista.html">Entrevista</a>
+                <a href="resenha.html">Resenhas</a>
+                <a href="cordel.html">Cordéis</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- ========== CONTEÚDO DESTA PÁGINA ========== -->
+<main id="conteudo">
+
+    <section class="pagina-titulo" id="intro-texto">
+        <h1>Contos</h1>
+    </section>
+
+    <section>
+        <div class="row row-cols-1 row-cols-md-2 g-4 row-cols-lg-3" id="lista-textos" data-tipo="conto"></div>
+        <noscript><p>Ative o JavaScript para ler os textos.</p></noscript>
+    </section>
+</main>
+
+<dialog id="leitor" class="leitor" aria-labelledby="leitor-titulo">
+    <div class="leitor-caixa">
+        <header class="leitor-topo">
+            <div>
+                <h2 id="leitor-titulo"></h2>
+                <p class="meta" id="leitor-meta"></p>
+            </div>
+            <button type="button" class="leitor-fechar" aria-label="Fechar texto" data-fechar>&times;</button>
+        </header>
+        <div class="leitor-conteudo" id="leitor-conteudo" tabindex="0"></div>
+    </div>
+</dialog>
+
+<!-- ========== RODAPÉ (igual em todas as páginas) ========== -->
+<footer class="footer">
+    <div class="footer-marca">
+        <strong>LímpidaMente</strong>
+        <span>Portfólio escolar · Língua Portuguesa</span>
+    </div>
+    <nav class="footer-menu">
+        <a href="index.html" class="menu-a">Home</a>
+        <a href="sobre.html" class="menu-a">Sobre</a>
+        <a href="conto.html" class="menu-a">Contos</a>
+        <a href="entrevista.html" class="menu-a">Entrevista</a>
+        <a href="resenha.html" class="menu-a">Resenhas</a>
+        <a href="cordel.html" class="menu-a">Cordéis</a>
+        <a href="contato.html" class="menu-a">Contato</a>
+    </nav>
+    <p>&copy; 2026 LímpidaMente — Projeto acadêmico. Todos os direitos reservados.</p>
+    <a href="#topo" class="menu-a">Voltar ao topo ↑</a>
+</footer>
+
+</body>
+</html>
